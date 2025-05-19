@@ -1,8 +1,8 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      name: 'darioaxel-documentación',
+      description: 'Open Source Documentation Site.',
       ogImage: '/hero.png',
       ogImageComponent: 'ShadcnDocs',
       ogImageColor: 'light',
@@ -26,7 +26,7 @@ export default defineAppConfig({
       border: true,
     },
     header: {
-      title: 'shadcn-docs',
+      title: 'darioaxel',
       showTitle: true,
       logo: {
         light: '/logo.svg',
@@ -39,26 +39,32 @@ export default defineAppConfig({
         dropdownType: 'select',
       },
       nav: [{
-        title: 'Docs',
+        title: 'Modulos',
         links: [{
-          title: 'Getting Started',
+          title: 'Bases de Datos',
           to: '/getting-started',
           description: 'Start building your document with shadcn-docs-nuxt',
           icon: 'lucide:rocket',
         }, {
-          title: 'Components',
+          title: 'Admon. de SGBD',
           to: '/components/prose',
           description: 'Explore available UI components and usage examples.',
           icon: 'lucide:box',
         }, {
-          title: 'API',
+          title: 'DWES',
+          to: '/api/configuration/shadcn-docs',
+          description: 'Discover the configurations and exposed APIs.',
+          target: '_self',
+          icon: 'lucide:code',
+        }, {
+          title: 'Programación IA',
           to: '/api/configuration/shadcn-docs',
           description: 'Discover the configurations and exposed APIs.',
           target: '_self',
           icon: 'lucide:code',
         }],
       }, {
-        title: 'Credits',
+        title: 'CampusDigitalFP',
         links: [{
           title: 'shadcn-ui',
           to: 'https://ui.shadcn.com/',
