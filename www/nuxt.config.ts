@@ -11,11 +11,11 @@ export default defineNuxtConfig({
         language: 'en-US',
       },
       {
-        code: 'fr',
-        name: 'Français',
-        language: 'fr-FR',
+        code: 'es',
+        name: 'Español',
+        language: 'es-ES',
       },
     ],
   },
-  compatibilityDate: '2025-05-13',
+  compatibilityDate: '2025-05-19',
 });
